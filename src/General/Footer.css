@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: black;
+}
+
+.footer__box {
+    width: 150px;
+    height: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: "Passion One";
+    font-size: 20px;
+    color: white;
+}
+
+.footer__text {
+    font-family: "Unica One";
+    font-size: 16px;
+}
+

@@ -1,0 +1,33 @@
+.carousel .slide {
+    height: 700px;
+}
+
+.slideshow__image1 {
+    background: url("../Photos/tim-carey-888gA0cV0nc-unsplash-2.jpg");
+    background-size: cover;
+    height: 700px;
+    overflow: hidden;
+}
+
+.slideshow__image2 {
+    background: url("../Photos/kevin-et-laurianne-langlais-yCg-sSDyxsE-unsplash.jpg");
+    background-size: cover;
+    height: 700px;
+    overflow: hidden;
+}
+
+.slideshow__image3 {
+    background: url("../Photos/yifei-chen-yBFfx6Z0EXQ-unsplash.jpg");
+    background-size: cover;
+    height: 700px;
+    overflow: hidden;
+}
+
+.slideshow__text {
+    position: relative;
+    top: -70px;
+    font-family: "Passion One";
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+}
