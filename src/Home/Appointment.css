@@ -22,23 +22,27 @@
 }
 
 .appointment__book {
-    position: absolute;
-    top: 1215px;
-    left: 0;
     font-family: "Passion One";
     font-size: 24px;
-    text-decoration: none;
     text-align: center;
     width: 250px;
     height: 25px;
     padding: 10px;
     margin-left: 190px;
     background: white;
+}
+
+.appointment__link {
+    text-decoration: none;
     color: black;
+
 }
 
 .appointment__book:hover {
     background: black;
+}
+
+.appointment__link:hover {
     color: white;
     cursor: default;
 }
@@ -48,9 +52,9 @@
 }
 
 .appointment__brands {
-    position: absolute;
-    top: 950px;
-    right: -100px;
+    position: relative;
+    top: -325px;
+    left: 700px;
     width: 800px;
 }
 

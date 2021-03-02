@@ -1,15 +1,13 @@
 import React from 'react';
-import Slideshow from '../Functions/Slideshow.js';
-import Appointment from '../Functions/Appointment';
-import './Home.css';
+import Slideshow from '../Home/Slideshow.js';
+import Content from '../Home/Content.js';
+import Appointment from '../Home/Appointment';
 
 function Home () {
     return (
-        <div className="Home">
+        <div>
             <Slideshow />
-            <br />
-            Content Page to break up the images and make it look clearner
-            <br /><br />
+            <Content />
             <Appointment />
         </div>
     )

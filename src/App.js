@@ -6,8 +6,9 @@ import {
     Redirect
 } from 'react-router-dom';
 import Header from './General/Header.js';
-import Home from './General/Home.js';
 import Footer from './General/Footer.js';
+import Home from './General/Home.js';
+import About from './General/About.js';
 import './App.css';
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
           <Header />
               <Switch>
                   <Route path="/about">
-                      About Page
+                      <About />
                   </Route>
                   <Route path="/">
                       <Home />

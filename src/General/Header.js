@@ -11,8 +11,8 @@ function Header() {
             </div>
             <div className="header__main">
                 <nav className="header__nav">
-                    <a className="header__navLink" href="#">HOME</a>
-                    <a className="header__navLink" href="#">ABOUT</a>
+                    <a className="header__navLink" href="/">HOME</a>
+                    <a className="header__navLink" href="/about">ABOUT</a>
                     <a className="header__navLink" href="#">SERVICES</a>
                     <a className="header__navLink" href="#">PRODUCT</a>
                     <a className="header__navLink" href="#">MEDIA</a>
