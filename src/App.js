@@ -9,6 +9,7 @@ import Header from './General/Header.js';
 import Footer from './General/Footer.js';
 import Home from './General/Home.js';
 import About from './General/About.js';
+import Contact from './General/Contact.js';
 import './App.css';
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
               <Switch>
                   <Route path="/about">
                       <About />
+                  </Route>
+                  <Route path="/contact">
+                      <Contact />
                   </Route>
                   <Route path="/">
                       <Home />

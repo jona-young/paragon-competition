@@ -13,10 +13,7 @@ function Header() {
                 <nav className="header__nav">
                     <a className="header__navLink" href="/">HOME</a>
                     <a className="header__navLink" href="/about">ABOUT</a>
-                    <a className="header__navLink" href="#">SERVICES</a>
-                    <a className="header__navLink" href="#">PRODUCT</a>
-                    <a className="header__navLink" href="#">MEDIA</a>
-                    <a className="header__navLink" href="#">CONTACT</a>
+                    <a className="header__navLink" href="/contact">CONTACT</a>
                 </nav>
                 <span className="header__userServices">
                     <span className="header__userIcon">

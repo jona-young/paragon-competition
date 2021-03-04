@@ -1,0 +1,38 @@
+.team {
+    display: flex;
+}
+
+.team__member {
+    width: 50%;
+    height: 450px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.dark {
+    background: lightgrey;
+}
+
+.light {
+    background: darkgrey;
+}
+
+.team__name {
+    font-family: "Passion One";
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.team__text {
+    position: relative;
+    top: -225px;
+    left: 175px;
+    width: 200px;
+    font-family: 'Unica One';
+}
+
+.team__pic {
+    box-shadow: 5px 10px 25px black;;
+    width: 150px;
+    height: auto;
+}
