@@ -1,0 +1,94 @@
+.cover {
+    background: url("../Photos/neonbrand-ZSz1m4JPDqU-unsplash.jpg");
+    background-size: cover;
+    height: 1000px;
+    overflow: hidden;
+    text-align: left;
+    color: white;
+}
+
+.cover__box {
+    position: absolute;
+    top: 160px;
+    left: 200px;
+    height: 275px;
+    width: 500px;
+    background: rgba(0, 0, 0, 50%);
+}
+
+.cover__title {
+    padding: 0 0 0 25px;
+    font-family: "Passion One";
+    font-size: 70px;
+    margin: 25px 0 25px 0;
+}
+
+.cover__text {
+    padding: 0 0 0 25px;
+    font-family: "Unica One";
+    font-size: 30px;
+}
+
+.cover__formbox {
+    position: absolute;
+    top: 160px;
+    left: 800px;
+    height: 210px;
+    width: 500px;
+    background: rgba(0, 0, 0, 50%);
+}
+
+.cover__subbox {
+    margin: 0 0 0 25px;
+}
+
+.cover__submsg {
+    position: relative;
+    top: -185px;
+    left: 245px;
+    margin: 0 0 0 25px;
+}
+
+.cover__subheading {
+    font-family: "Passion One";
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.cover__name {
+    height: 15px;
+    width: 200px;
+}
+
+.cover__message {
+    height: 140px;
+    width: 200px;
+}
+
+.cover__button {
+    position: absolute;
+    top: 365px;
+    left: 735px;
+    font-family: "Passion One";
+    font-size: 24px;
+    text-align: center;
+    width: 250px;
+    height: 25px;
+    padding: 10px;
+    margin-left: 190px;
+    background: white;
+}
+
+.cover__link {
+    text-decoration: none;
+    color: black;
+}
+
+.cover__button:hover {
+    background: black;
+}
+
+.cover__link:hover {
+    color: white;
+    cursor: default;
+}
