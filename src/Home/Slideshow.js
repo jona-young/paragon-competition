@@ -7,15 +7,15 @@ function Slideshow () {
     return (
         <Carousel showThumbs={false}>
             <div>
-                <div className="slideshow__image1" />
+                <div className="slideshow__image image1" />
                 <span className="slideshow__text">LEADING BY EXPERIENCE</span>
             </div>
             <div>
-                <div className="slideshow__image2" />
+                <div className="slideshow__image image2" />
                 <span className="slideshow__text">Experience Matters</span>
             </div>
             <div>
-                <div className="slideshow__image3" />
+                <div className="slideshow__image image3" />
                 <span className="slideshow__text">Experience Paragon</span>
             </div>
         </Carousel>

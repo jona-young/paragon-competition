@@ -1,24 +1,24 @@
 .appointment__cover {
     background: url("../Photos/p-banner.png");
     background-size: cover;
-    height: 700px;
+    height: 550px;
     overflow: hidden;
     color: white;
 }
 
 .appointment__title {
     font-family: "Passion One";
-    font-size: 40px;
+    font-size: 30px;
     text-align: left;
-    width: 500px;
-    margin-top: 200px;
+    width: 400px;
+    margin-top: 150px;
 }
 
 .appointment__text {
     font-family: "Unica One";
-    font-size: 24px;
+    font-size: 20px;
     text-align: left;
-    width: 500px;
+    width: 400px;
 }
 
 .appointment__book {
@@ -28,7 +28,7 @@
     width: 250px;
     height: 25px;
     padding: 10px;
-    margin-left: 190px;
+    margin-left: 150px;
     background: white;
 }
 
@@ -52,12 +52,28 @@
 
 .appointment__brands {
     position: relative;
-    top: -325px;
-    left: 700px;
+    top: -280px;
+    left: 500px;
     width: 800px;
 }
 
 .appointment__singleBrand {
     margin-right: 100px;
     margin-bottom: 100px;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
 }

@@ -27,7 +27,7 @@ function Cover () {
                 </div>
                 <div className="cover__submsg">
                     <p className="cover__subheading">MESSAGE</p>
-                    <textarea className="cover__message" type="text" placeholder="Name.." />
+                    <textarea className="cover__message" type="text" placeholder="Message.." />
                 </div>
             </div>
             <p className="cover__button">

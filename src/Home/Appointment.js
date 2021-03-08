@@ -14,9 +14,11 @@ function Appointment () {
             <p className="appointment__text indent">
                 PROTECT YOUR INVESTMENT. AS THE FACTORY AUTHORIZED REBUILD CENTRE FOR AST, MOTON, OHLINS, AND JRZ IN CANADA, WE TAKE DAMPERS SERIOUSLY.
             </p>
-            <p className="appointment__book">
-                <a className="appointment__link" href="#">BOOK YOUR APPOINTMENT</a>
-            </p>
+            <a className="appointment__link" href="/contact">
+                <p className="appointment__book">
+                    BOOK YOUR APPOINTMENT
+                </p>
+            </a>
             <div className="appointment__brands">
                 <img className="appointment__singleBrand" src={brand1} />
                 <img className="appointment__singleBrand" src={brand2} />

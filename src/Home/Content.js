@@ -14,9 +14,11 @@ function Content () {
                 <p className="content__text">
                     OUR TEAM OF SEASONED RACERS CAN GEAR YOU UP FOR ANY DISCIPLINE THAT YOU RACE IN AND SHARE THEIR FIRSTHAND KNOWLEDGE. EXPERIENCE IS SO MUCH MORE THAN A PRODUCT DESCRIPTION.
                 </p>
-                <p className="content__about">
-                    <a className="content__link" href="#">ABOUT US</a>
-                </p>
+                <a className="content__link" href="/about">
+                    <p className="content__about">
+                        ABOUT US
+                    </p>
+                </a>
             </div>
 
         </div>

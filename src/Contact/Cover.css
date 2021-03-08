@@ -10,7 +10,7 @@
 .cover__box {
     position: absolute;
     top: 160px;
-    left: 200px;
+    left: 360px;
     height: 275px;
     width: 500px;
     background: rgba(0, 0, 0, 50%);
@@ -31,8 +31,8 @@
 
 .cover__formbox {
     position: absolute;
-    top: 160px;
-    left: 800px;
+    top: 475px;
+    left: 360px;
     height: 210px;
     width: 500px;
     background: rgba(0, 0, 0, 50%);
@@ -67,8 +67,8 @@
 
 .cover__button {
     position: absolute;
-    top: 365px;
-    left: 735px;
+    top: 700px;
+    left: 290px;
     font-family: "Passion One";
     font-size: 24px;
     text-align: center;
@@ -91,4 +91,20 @@
 .cover__link:hover {
     color: white;
     cursor: default;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
 }

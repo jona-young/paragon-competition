@@ -1,6 +1,6 @@
 import React from 'react';
-import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
-import SearchIcon from '@material-ui/icons/Search';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import InstagramIcon from '@material-ui/icons/Instagram';
 import './Header.css';
 
 function Header() {
@@ -17,10 +17,9 @@ function Header() {
                 </nav>
                 <span className="header__userServices">
                     <span className="header__userIcon">
-                        <input className="header__userSearch" type="text" placeholder="Search.." />
-                        <SearchIcon />
+                        <a href="#"><InstagramIcon style={{color:"black"}} /></a>
+                        <a href="#"><FacebookIcon style={{color:"black"}}  /></a>
                     </span>
-                    <ShoppingCartIcon className="header__userIcon" />
                 </span>
             </div>
         </div>
