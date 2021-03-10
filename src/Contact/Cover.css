@@ -1,38 +1,41 @@
 .cover {
     background: url("../Photos/neonbrand-ZSz1m4JPDqU-unsplash.jpg");
     background-size: cover;
+    background-position: center center;
     height: 1000px;
     overflow: hidden;
     text-align: left;
     color: white;
 }
 
+.cover__center {
+    width: 40%;
+    margin: 150px auto 0 auto;
+    display: block;
+}
+
 .cover__box {
-    position: absolute;
-    top: 160px;
-    left: 360px;
-    height: 275px;
+    height: 315px;
     width: 500px;
     background: rgba(0, 0, 0, 50%);
 }
 
 .cover__title {
-    padding: 0 0 0 25px;
+    padding: 25px 0 0 25px;
     font-family: "Passion One";
     font-size: 70px;
     margin: 25px 0 25px 0;
 }
 
 .cover__text {
-    padding: 0 0 0 25px;
+    padding: 0 25px 0 25px;
     font-family: "Unica One";
     font-size: 30px;
 }
 
 .cover__formbox {
-    position: absolute;
-    top: 475px;
-    left: 360px;
+    margin-top: 25px;
+    padding-top: 15px;
     height: 210px;
     width: 500px;
     background: rgba(0, 0, 0, 50%);
@@ -66,16 +69,13 @@
 }
 
 .cover__button {
-    position: absolute;
-    top: 700px;
-    left: 290px;
     font-family: "Passion One";
     font-size: 24px;
     text-align: center;
     width: 250px;
     height: 25px;
     padding: 10px;
-    margin-left: 190px;
+    margin-left: 125px;
     background: white;
 }
 
@@ -98,11 +98,114 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .cover {
+        height: 775px;
+    }
 
+    .cover__center {
+        width: 60%;
+        margin-top: 75px;
+    }
+    .cover__box {
+        height: 225px;
+        width: 425px;
+    }
+
+    .cover__title {
+        font-size: 50px;
+        margin: 25px 0 0px 0;
+    }
+
+    .cover__text {
+        font-size: 24px;
+    }
+
+    .cover__formbox {
+        width: 425px;
+    }
+
+    .cover__subheading {
+        font-size: 16px;
+    }
+
+    .cover__name {
+        height: 15px;
+        width: 175px;
+    }
+
+    .cover__message {
+        height: 140px;
+        width: 150px;
+    }
+
+    .cover__submsg {
+        top: -180px;
+        left: 215px;
+        margin: 0 0 0 25px;
+    }
+
+    .cover__button {
+        font-size: 22px;
+        width: 215px;
+        height: 20px;
+        margin-left: 100px;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+    .cover {
+        height: 650px;
+    }
 
+    .cover__center {
+        width: 80%;
+        margin-top: 75px;
+    }
+
+    .cover__box {
+        height: 185px;
+        width: 400px;
+    }
+
+    .cover__title {
+        font-size: 40px;
+        margin: 25px 0 0px 0;
+    }
+
+    .cover__text {
+        font-size: 20px;
+    }
+
+    .cover__formbox {
+        width: 400px;
+    }
+
+    .cover__subheading {
+        font-size: 14px;
+    }
+
+    .cover__name {
+        height: 15px;
+        width: 150px;
+    }
+
+    .cover__message {
+        height: 140px;
+        width: 150px;
+    }
+
+    .cover__submsg {
+        top: -170px;
+        left: 195px;
+        margin: 0 0 0 25px;
+    }
+
+    .cover__button {
+        font-size: 20px;
+        width: 200px;
+        height: 20px;
+        margin-left: 90px;
+    }
 }
 
 @media screen and (max-width: 480px) {

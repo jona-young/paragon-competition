@@ -38,15 +38,98 @@
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .team__member {
+        height: 350px;
+    }
 
+    .team__name {
+        font-size: 35px;
+    }
+
+    .team__text {
+        top: -200px;
+        left: 150px;
+        width: 150px;
+        font-size: 13.5px;
+    }
+
+    .team__pic {
+        width: 125px;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .team__member {
+        height: 54vw;
+    }
 
+    .team__name {
+        font-size: 30px;
+        margin: 15px 0 10px 0;
+    }
+
+    .team__text {
+        top: 5px;
+        left: 0px;
+        width: 175px;
+        font-size: 1.4vw;
+    }
+
+    .team__pic {
+        width: 60%;
+    }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 651px) and (max-width: 768px) {
+    .team {
+        flex-direction: column;
+    }
 
+    .team__member {
+        width: 100%;
+    }
+
+    .team__name {
+        font-size: 50px;
+        margin: 25px 0 15px 0;
+    }
+
+    .team__text {
+        top: -325px;
+        left: 225px;
+        width: 55vw;
+        font-size: 25px;
+    }
+
+    .team__pic {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 650px) {
+    .team {
+        flex-direction: column;
+    }
+
+    .team__member {
+        width: 100%;
+    }
+
+    .team__name {
+        font-size: 50px;
+        margin: 25px 0 15px 0;
+    }
+
+    .team__text {
+        top: -325px;
+        left: 225px;
+        width: 42vw;
+        font-size: 21px;
+    }
+
+    .team__pic {
+        width: 200px;
+    }
 }
 
 @media screen and (max-width: 480px) {
