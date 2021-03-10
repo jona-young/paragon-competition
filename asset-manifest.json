@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/paragon-competition/static/css/main.63593a27.chunk.css",
+    "main.js": "/paragon-competition/static/js/main.3b369abb.chunk.js",
+    "main.js.map": "/paragon-competition/static/js/main.3b369abb.chunk.js.map",
+    "runtime-main.js": "/paragon-competition/static/js/runtime-main.5dadccba.js",
+    "runtime-main.js.map": "/paragon-competition/static/js/runtime-main.5dadccba.js.map",
+    "static/css/2.631cbb15.chunk.css": "/paragon-competition/static/css/2.631cbb15.chunk.css",
+    "static/js/2.3f725172.chunk.js": "/paragon-competition/static/js/2.3f725172.chunk.js",
+    "static/js/2.3f725172.chunk.js.map": "/paragon-competition/static/js/2.3f725172.chunk.js.map",
+    "static/js/3.4a3adf46.chunk.js": "/paragon-competition/static/js/3.4a3adf46.chunk.js",
+    "static/js/3.4a3adf46.chunk.js.map": "/paragon-competition/static/js/3.4a3adf46.chunk.js.map",
+    "index.html": "/paragon-competition/index.html",
+    "static/css/2.631cbb15.chunk.css.map": "/paragon-competition/static/css/2.631cbb15.chunk.css.map",
+    "static/css/main.63593a27.chunk.css.map": "/paragon-competition/static/css/main.63593a27.chunk.css.map",
+    "static/js/2.3f725172.chunk.js.LICENSE.txt": "/paragon-competition/static/js/2.3f725172.chunk.js.LICENSE.txt",
+    "static/media/albert-dera-ILip77SbmOE-unsplash.020235ba.jpg": "/paragon-competition/static/media/albert-dera-ILip77SbmOE-unsplash.020235ba.jpg",
+    "static/media/Experience.css": "/paragon-competition/static/media/goh-rhy-yan-eo7_DWzUxgw-unsplash.c6342d94.jpg",
+    "static/media/jurica-koletic-7YVZYZeITc8-unsplash-2.53c75418.jpg": "/paragon-competition/static/media/jurica-koletic-7YVZYZeITc8-unsplash-2.53c75418.jpg",
+    "static/media/Slideshow.css": "/paragon-competition/static/media/yifei-chen-yBFfx6Z0EXQ-unsplash.167cb03d.jpg",
+    "static/media/kimson-doan-HD8KlyWRYYM-unsplash.2713baae.jpg": "/paragon-competition/static/media/kimson-doan-HD8KlyWRYYM-unsplash.2713baae.jpg",
+    "static/media/Cover.css": "/paragon-competition/static/media/neonbrand-ZSz1m4JPDqU-unsplash.3cdada2a.jpg",
+    "static/media/Appointment.css": "/paragon-competition/static/media/p-banner.78a5cd9d.png",
+    "static/media/service3.b7e17008.png": "/paragon-competition/static/media/service3.b7e17008.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5dadccba.js",
+    "static/css/2.631cbb15.chunk.css",
+    "static/js/2.3f725172.chunk.js",
+    "static/css/main.63593a27.chunk.css",
+    "static/js/main.3b369abb.chunk.js"
+  ]
+}
