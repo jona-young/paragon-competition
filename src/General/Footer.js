@@ -7,29 +7,32 @@ function Footer () {
             <div className="footer__box">
                 Hours of Operation
                 <br />
-                <span className="footer__text">
+                <p className="footer__text">
                     M-F 9:30 AM - 6:00 PM
-                    <br />
+                </p>
+                <p className="footer__text">
                     SAT 10:00 AM - 2:00 PM
-                </span>
+                </p>
 
             </div>
             <div className="footer__box">
                 Address
                 <br />
-                <span className="footer__text">
+                <p className="footer__text">
                     1681 LANGSTAFF ROAD UNIT 12
                     VAUGHAN, ON L4K 5T3 CANADA
-                </span>
+                </p>
             </div>
-            <div className="footer__box">
+            <div className="footer__box dropbelow">
                 Phone & Email
                 <br />
-                <span className="footer__text">
+                <p className="footer__text">
                     905-760-9996
-                    <br />
+                </p>
+                <p className="footer__text">
                     SALES@PARAGONCOMPETITION.COM
-                </span>
+
+                </p>
             </div>
         </div>
     )

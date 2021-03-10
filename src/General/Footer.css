@@ -9,8 +9,7 @@
 .footer__box {
     width: 150px;
     height: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 0 100px 0 100px;
     font-family: "Passion One";
     font-size: 20px;
     color: white;
@@ -19,5 +18,50 @@
 .footer__text {
     font-family: "Unica One";
     font-size: 16px;
+    margin: 0;
 }
 
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .footer__box {
+        margin: 0 75px 0 75px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .footer__box {
+        margin: 0 50px 0 25px;
+        font-size: 16px;
+    }
+
+    .footer__text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .footer {
+        align-items: normal;
+        justify-content: left;
+        text-align: left;
+
+    }
+    .footer__box {
+        margin: 25px 15px 0 25px;
+        font-size: 15px;
+    }
+
+    .footer__text {
+        width: 175px;
+        font-size: 14px;
+    }
+
+    .dropbelow {
+        position: relative;
+        top: 75px;
+        left: -380px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+}

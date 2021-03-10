@@ -8,17 +8,19 @@ import './Appointment.css';
 function Appointment () {
     return (
         <div className="appointment__cover">
-            <p className="appointment__title indent">
-                HOW LONG HAS IT BEEN SINCE YOU SERVICED YOUR DAMPERS?
-            </p>
-            <p className="appointment__text indent">
-                PROTECT YOUR INVESTMENT. AS THE FACTORY AUTHORIZED REBUILD CENTRE FOR AST, MOTON, OHLINS, AND JRZ IN CANADA, WE TAKE DAMPERS SERIOUSLY.
-            </p>
-            <a className="appointment__link" href="/contact">
-                <p className="appointment__book">
-                    BOOK YOUR APPOINTMENT
+            <div className="appointment__box">
+                <p className="appointment__title">
+                    HOW LONG HAS IT BEEN SINCE YOU SERVICED YOUR DAMPERS?
                 </p>
-            </a>
+                <p className="appointment__text">
+                    PROTECT YOUR INVESTMENT. AS THE FACTORY AUTHORIZED REBUILD CENTRE FOR AST, MOTON, OHLINS, AND JRZ IN CANADA, WE TAKE DAMPERS SERIOUSLY.
+                </p>
+                <a className="appointment__link" href="/contact">
+                    <p className="appointment__book">
+                        BOOK YOUR APPOINTMENT
+                    </p>
+                </a>
+            </div>
             <div className="appointment__brands">
                 <img className="appointment__singleBrand" src={brand1} />
                 <img className="appointment__singleBrand" src={brand2} />

@@ -6,19 +6,22 @@
     color: white;
 }
 
+.appointment__box {
+    margin: 150px 0 0 100px;
+    width: 400px;
+
+}
+
 .appointment__title {
     font-family: "Passion One";
     font-size: 30px;
     text-align: left;
-    width: 400px;
-    margin-top: 150px;
 }
 
 .appointment__text {
     font-family: "Unica One";
     font-size: 20px;
     text-align: left;
-    width: 400px;
 }
 
 .appointment__book {
@@ -28,7 +31,7 @@
     width: 250px;
     height: 25px;
     padding: 10px;
-    margin-left: 150px;
+    margin-left: 50px;
     background: white;
 }
 
@@ -46,10 +49,6 @@
     cursor: default;
 }
 
-.indent {
-    margin-left: 100px;
-}
-
 .appointment__brands {
     position: relative;
     top: -280px;
@@ -58,22 +57,145 @@
 }
 
 .appointment__singleBrand {
-    margin-right: 100px;
-    margin-bottom: 100px;
+    margin: 0 100px 100px 0;
+
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .appointment__cover {
+        height: 375px;
+    }
 
+    .appointment__box {
+        margin: 50px 0 0 50px;
+    }
+
+    .appointment__brands {
+        left: 50%;
+        width: 600px;
+    }
+
+    .appointment__singleBrand {
+        margin: 0 75px 75px 0;
+        width: 30%;
+        height: auto;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .appointment__cover {
+        height: 300px;
+    }
 
+    .appointment__box {
+        margin: 50px 0 0 50px;
+        width: 300px;
+    }
+
+    .appointment__title {
+        font-size: 24px;
+    }
+
+    .appointment__text {
+        font-size: 16px;
+    }
+
+    .appointment__book {
+        font-size: 16px;
+        width: 165px;
+        height: 15px;
+        margin-left: 0px;
+    }
+
+    .appointment__brands {
+        top: -200px;
+        left: 45%;
+        width: 500px;
+    }
+
+    .appointment__singleBrand {
+        margin: 0 50px 50px 0;
+        width: 30%;
+        height: auto;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+    .appointment__cover {
+        height: 300px;
+    }
 
+    .appointment__box {
+        margin: 75px 0 0 25px;
+        width: 250px;
+    }
+
+    .appointment__title {
+        font-size: 20px;
+    }
+
+    .appointment__text {
+        font-size: 14px;
+    }
+
+    .appointment__book {
+        font-size: 14px;
+        width: 150px;
+        height: 15px;
+        padding: 5px;
+        margin-left: 0px;
+    }
+
+    .appointment__brands {
+        top: -235px;
+        left: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .appointment__singleBrand {
+        margin: 0 0 25px 0;
+        width: 125px;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 480px) {
+    .appointment__cover {
+        height: 300px;
+    }
 
+    .appointment__box {
+        margin: 75px 0 0 25px;
+        width: 250px;
+    }
+
+    .appointment__title {
+        font-size: 16px;
+    }
+
+    .appointment__text {
+        font-size: 12px;
+    }
+
+    .appointment__book {
+        font-size: 12px;
+        width: 125px;
+        height: 10px;
+        padding: 5px;
+        margin-left: 0px;
+    }
+
+    .appointment__brands {
+        top: -235px;
+        left: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .appointment__singleBrand {
+        margin: 0 0 25px 0;
+        width: 100px;
+        height: auto;
+    }
 }
